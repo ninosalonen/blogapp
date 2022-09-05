@@ -9,7 +9,8 @@
     "jest": "jest --verbose",
     "lint": "eslint .",
     "start": "NODE_ENV=production node index.js",
-    "start:test": "NODE_ENV=test node index.js"
+    "start:test": "NODE_ENV=test node index.js",
+    "postinstall": "cd client && npm install && npm run build"
   },
   "author": "Nino Salonen",
   "license": "ISC",
