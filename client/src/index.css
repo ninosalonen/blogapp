@@ -223,6 +223,7 @@ th, td {
   width: 60ch;
   max-width: 80vw;
   word-wrap: break-word;
+  white-space: pre-wrap;
   box-shadow: rgb(0,0,0,0.4) 0px 5px 15px;
 }
 
